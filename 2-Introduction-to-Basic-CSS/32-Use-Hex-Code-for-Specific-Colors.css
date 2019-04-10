@@ -1,0 +1,7 @@
+/* In this lesson I learned about hexidecimal code and how to use it in place of color names in css styling */
+
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>

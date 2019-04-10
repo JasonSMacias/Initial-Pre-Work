@@ -1,0 +1,7 @@
+/* In this lesson I started learning about css inheritance and that every html page has a body element */
+
+<style>
+  body {
+    background-color: black;
+  }
+</style>

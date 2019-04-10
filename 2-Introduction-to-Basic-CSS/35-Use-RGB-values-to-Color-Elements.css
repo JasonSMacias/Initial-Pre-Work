@@ -1,0 +1,7 @@
+/* In this lesson I learned how to use RBG color values in css, and how they represent the same range of three numbers as hex codes */
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>

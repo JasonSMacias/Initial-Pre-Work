@@ -1,0 +1,12 @@
+/* In this lesson I learned that the body element can by stlyed like any other element, and those styles will be inhereted by its contained elements */
+
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+
+<h1>Hello World</h1>
