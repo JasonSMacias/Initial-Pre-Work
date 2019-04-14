@@ -1,0 +1,23 @@
+/* In this lesson I learned how to use grid-row-gap to create gaps between rows */
+
+<style>
+  .d1{background:LightSkyBlue;}
+  .d2{background:LightSalmon;}
+  .d3{background:PaleTurquoise;}
+  .d4{background:LightPink;}
+  .d5{background:PaleGreen;}
+
+  .container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* add your code below this line */
+    grid-row-gap: 5px;
+
+    /* add your code above this line */
+  }
+</style>
