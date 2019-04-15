@@ -1,3 +1,7 @@
-// Please remember to include a summary statement with EACH FILE regarding what you learned from the lesson in this format!  I recommend keeping it at the top of each file for faster processing of your application.
+// In this lesson I learned two ways to write comments in javascript code, and why comments are important
 
-// Copy your code from the central panel of the freeCodeCamp page and paste it below after successfully passing the test.  You will have to click on the X at the top right of the modal that pops up to see the code. If you forget, just rerun the test.  You are also welcome to download your solution.
+// This is a comment of the first type, on a single line
+/* This is
+a comment of
+the second type,
+on multiple lines*/
