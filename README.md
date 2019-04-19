@@ -4,36 +4,37 @@
 
 ## When we hit https://www.techtonic.com/ what happens? Don’t focus too much on architecture (Monolithic, SOA, Microservices, etc.). Try to focus more on how the web functions in general terms/steps.
 
-put your answer here
+First, the browser checks to see if there is an IP address associated with the url https://www.techtonic.com/ on the local computer in the hosts file.  If not, the browser makes a UDP protocol request to the DNS server set in local preferences settings.  If that server doesn't have the required information in its cache, the server routes the request to another server higher in the hierarchy, and so on, up to the DNS Root system of servers.  If the request gets to the DNS Root, it will be forwarded to the appropriate top-level domain DNS server, which will then forward the request to an authoritative name server that will send the appropriate IP address to the requestin computer.
+Next, the requesting computer will use the IP address to set up a TCP connection to the server that the address represents, and then it will send a HTTP GET request.  If that request is valid, the server will return a response with the appropriate information for the page requested to the requesting computer.
 
 ## From start to finish, how does data reach you to be rendered in the browser?
 
-put your answer here
+When a server sends data to a browser, it starts with a "200 OK" message if everything is okay, and then starts sending the appropriate files broken up into chunks called "packets" to the browser using TCP/IP protocol, directed to the appropriate port.
 
 ## What code is rendered in the browser?
 
-put your answer here
+The browser parses and renders primarily HTML and CSS code from files sent from a server, or possibly from the local computer, although it can usually also handle other file types.
 
 ## What is the server-side code’s main function?
 
-put your answer here
+Server-side code's main function is to await requests from clients or other servers, after which it responds with data from files or databases, and possibly process input from users or make changes to its files or databases.
 
 ## What is the client-side code’s main function?
 
-put your answer here
+The main function of client-side code is to interact with the browser DOM and to interact with servers according to user actions.
 
 ## What is runtime?
 
-put your answer here
+Runtime is the time during which a computer program is executing.
 
 ## How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
 
-put your answer here
+One for every client that accesses the assets, along with the one hosted on the server (this question was not clear to me, I hope this answers it).
 
 ## How many instances of the server-side code are available at any given time?
 
-put your answer here
+One at any given time.
 
 ## How many instances of the databases connected to the server application are created?
 
-put your answer here
+One instance.
